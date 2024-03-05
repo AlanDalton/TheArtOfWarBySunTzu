@@ -6,13 +6,8 @@
 <meta content="Sun Tzu" name="author">
 <meta content="index, follow" name="robots">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<!--<link href="http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700" rel="stylesheet">-->
-<script src="https://use.edgefonts.net/source-sans-pro:n4,n7.js"></script>
 <style>
 *{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 [aria-hidden="true"] { 
@@ -22,7 +17,7 @@
 	display: block;
 }
 body{
-	font-family: source-sans-pro, Candara, Avenir, sans-serif; 
+	font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif; /* https://modernfontstacks.com/#classical-humanist */
 	font-weight: 400;
 	font-size: 100%;
 	line-height: 1.4;
@@ -50,7 +45,6 @@ h1,
 h2 {
 	font-weight: 400;
 	text-rendering: optimizeLegibility;
-	webkit-font-smoothing: antialiased;
 }
 h1{
 	margin-bottom: 0.5rem;
@@ -132,9 +126,6 @@ li {
 }
 /* http://usabilitypost.com/2014/05/10/using-small-caps-and-text-figures-on-the-web/ */
 .small-caps {
-    -ms-font-feature-settings: "smcp";
-    -moz-font-feature-settings: "smcp";
-    -webkit-font-feature-settings: "smcp";
     font-feature-settings: "smcp";
 }
 
@@ -169,9 +160,9 @@ li {
 	}
 }
 </style>
-<header role="banner">
+<header>
 	<h1><strong>The Art Of War</strong><br>by Sun&nbsp;Tzu</h1>
-	<nav role="navigation" id="theNavigation" aria-labelledby="Chapters">
+	<nav id="theNavigation" aria-labelledby="Chapters">
 		<h2 id="Chapters">Chapters:</h2>
 		<ol>
 			<li><a href="#Chapter_1_Laying_Plans">1. Laying Plans</a>
@@ -190,9 +181,9 @@ li {
 		</ol>
 	</nav>
 </header>
-<main role="main">
-	<details role="group" aria-labelledby="Chapter_1_Laying_Plans">
-		<summary role="button" aria-expanded="false">
+<main>
+	<details aria-labelledby="Chapter_1_Laying_Plans">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_1_Laying_Plans">Chapter 1: <strong>Laying Plans</strong></h2>
 		</summary>
 		<ol>
@@ -240,8 +231,8 @@ li {
 			<li>Now the general who wins a battle makes many calculations in his temple ere the battle is fought. The general who loses a battle makes but few calculations beforehand. Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or&nbsp;lose.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_2_Waging_War">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_2_Waging_War">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_2_Waging_War">Chapter 2: <strong>Waging War</strong></h2>
 		</summary>
 		<ol>
@@ -267,8 +258,8 @@ li {
 			<li>Thus it may be known that the leader of armies is the arbiter of the people’s fate, the man on whom it depends whether the nation shall be in peace or in&nbsp;peril.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_3_Attack_by_Stratagem">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_3_Attack_by_Stratagem">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_3_Attack_by_Stratagem">Chapter 3: <strong>Attack by Stratagem</strong></h2>
 		</summary>
 		<ol>
@@ -299,8 +290,8 @@ li {
 			<li>Hence the saying: If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every&nbsp;battle.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_4_Tactical_Dispositions">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_4_Tactical_Dispositions">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_4_Tactical_Dispositions">Chapter 4: <strong>Tactical Dispositions</strong></h2>
 		</summary>
 		<ol>
@@ -326,8 +317,8 @@ li {
 			<li>The onrush of a conquering force is like the bursting of pent-up waters into a chasm a thousand fathoms&nbsp;deep.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_5_Energy">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_5_Energy">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_5_Energy">Chapter 5: <strong>Energy</strong></h2>
 		</summary>
 		<ol>
@@ -356,8 +347,8 @@ li {
 			<li>Thus the energy developed by good fighting men is as the momentum of a round stone rolled down a mountain thousands of feet in height. So much on the subject of&nbsp;energy.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_6_Weak_Points_and_Strong">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_6_Weak_Points_and_Strong">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_6_Weak_Points_and_Strong">Chapter 6: <strong>Weak Points and Strong</strong></h2>
 		</summary>
 		<ol>
@@ -397,8 +388,8 @@ li {
 			<li>The five elements (water, fire, wood, metal, earth) are not always equally predominant; the four seasons make way for each other in turn. There are short days and long; the moon has its periods of waning and&nbsp;waxing.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_7_Maneuvering">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_7_Maneuvering">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_7_Maneuvering">Chapter 7: <strong>Maneuvering</strong></h2>
 		</summary>
 		<ol>
@@ -441,8 +432,8 @@ li {
 			<li>Such is the art of&nbsp;warfare.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_8_Variation_in_Tactics">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_8_Variation_in_Tactics">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_8_Variation_in_Tactics">Chapter 8: <strong>Variation in Tactics</strong></h2>
 		</summary>
 		<ol>
@@ -469,8 +460,8 @@ li {
 			<li>When an army is overthrown and its leader slain, the cause will surely be found among these five dangerous faults. Let them be a subject of&nbsp;meditation.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_9_The_Army_on_the_March">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_9_The_Army_on_the_March">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_9_The_Army_on_the_March">Chapter 9: <strong>The Army on the March</strong></h2>
 		</summary>
 		<ol>
@@ -521,8 +512,8 @@ li {
 			<li>If a general shows confidence in his men but always insists on his orders being obeyed, the gain will be&nbsp;mutual.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_10_Terrain">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_10_Terrain">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_10_Terrain">Chapter 10: <strong>Terrain</strong></h2>
 		</summary>
 		<ol>
@@ -575,8 +566,8 @@ li {
 			<li>Hence the saying: If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven and know Earth, you may make your victory&nbsp;complete.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_11_The_Nine_Situations">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_11_The_Nine_Situations">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_11_The_Nine_Situations">Chapter 11: <strong>The Nine Situations</strong></h2>
 		</summary>
 		<ol>
@@ -661,8 +652,8 @@ li {
 			<li>At first, then, exhibit the coyness of a maiden, until the enemy gives you an opening; afterwards emulate the rapidity of a running hare, and it will be too late for the enemy to oppose&nbsp;you.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_12_The_Attack_by_Fire">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_12_The_Attack_by_Fire">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_12_The_Attack_by_Fire">Chapter 12: <strong>The Attack by Fire</strong></h2>
 		</summary>
 		<ol>
@@ -690,8 +681,8 @@ li {
 			<li>Hence the enlightened ruler is heedful, and the good general full of caution. This is the way to keep a country at peace and an army&nbsp;intact.
 		</ol>
 	</details>
-	<details role="group" aria-labelledby="Chapter_13_The_Use_of_Spies">
-		<summary role="button" aria-expanded="false">
+	<details aria-labelledby="Chapter_13_The_Use_of_Spies">
+		<summary aria-expanded="false">
 			<h2 id="Chapter_13_The_Use_of_Spies">Chapter 13: <strong>The Use of Spies</strong></h2>
 		</summary>
 		<ol>
