@@ -86,11 +86,11 @@ a:active,
 a:focus {
 	border-bottom: 0.125rem solid;
 }
-[role="banner"],
+header,
 details {
 	margin-bottom: 2rem;
 }
-[role="contentinfo"] {
+footer {
 	margin-bottom: 4rem;
 }
 nav>ol,
@@ -98,18 +98,18 @@ details>ol {
 	list-style-position: outside;
 	padding-left: 0;
 }
-[role="navigation"] {
+nav {
 	background-color: hsla(0,0%,93%,1);
 	padding: 0.25rem 1rem;
 }
-[role="navigation"]>ol {
+nav>ol {
 	list-style-type: none;
 	columns: 2;
 }
-[role="navigation"]>ol>li {
+nav>ol>li {
 	margin-bottom: 1rem;
 }
-[role="navigation"]>ol>li>a{
+nav>ol>li>a{
 	display: inline-block;
 }
 details>ol>li:hover {
@@ -144,13 +144,13 @@ li {
 	h2 {
 		font-size: 1.3125em; /* 21px */
 	}
-	[role="banner"],
+	header,
 	details {
 		margin-bottom: 4rem;
 	}	
 }
 @media only screen and (min-width: 25em) {
-	[role="navigation"]>ol {
+	nav>ol {
 		list-style-type: none;
 		columns: 3;
 	}
